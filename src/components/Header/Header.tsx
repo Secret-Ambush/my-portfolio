@@ -26,7 +26,7 @@ export function Header() {
             About me
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
+            Projects
           </NavHashLink>
           <a href={Resume} download className="button">
             Resume

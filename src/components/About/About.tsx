@@ -4,8 +4,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
   return (
-    <Container id="about">
-      <div className="about-text">
+    <Container>
+      <div>
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
