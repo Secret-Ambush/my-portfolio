@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.039bf95e.css",
-    "main.js": "/my-portfolio/static/js/main.a657e142.js",
+    "main.js": "/my-portfolio/static/js/main.432dd2a8.js",
     "static/media/RiddhiGoswami.jpeg": "/my-portfolio/static/media/RiddhiGoswami.4f6f4ef770cc2f0cd554.jpeg",
     "static/media/Hello.gif": "/my-portfolio/static/media/Hello.d93720933c608f6178fb.gif",
-    "static/media/Riddhi_Goswami_resume.pdf": "/my-portfolio/static/media/Riddhi_Goswami_resume.ef8612d149d9712f4c0d.pdf",
+    "static/media/Riddhi_Goswami_resume.pdf": "/my-portfolio/static/media/Riddhi_Goswami_resume.157ab8d71bc2d2389931.pdf",
     "static/media/c-sharp-icon.png": "/my-portfolio/static/media/c-sharp-icon.c7c58872a646ba986381.png",
     "static/media/illustration.svg": "/my-portfolio/static/media/illustration.20ddd59037653d8c26619fd92479bb48.svg",
     "static/media/python-icon.png": "/my-portfolio/static/media/python-icon.e8f8b91bdfccd9fb142f.png",
@@ -18,10 +18,10 @@
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/my-portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.039bf95e.css.map": "/my-portfolio/static/css/main.039bf95e.css.map",
-    "main.a657e142.js.map": "/my-portfolio/static/js/main.a657e142.js.map"
+    "main.432dd2a8.js.map": "/my-portfolio/static/js/main.432dd2a8.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.a657e142.js"
+    "static/js/main.432dd2a8.js"
   ]
 }
