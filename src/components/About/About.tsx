@@ -26,13 +26,19 @@ export function About() {
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={30}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={20}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
             With a keen eye for problem-solving and a drive to simplify complex concepts, I've led workshops and served as a leader in Google Developer Student Club and IEEE. I enjoy pushing boundaries to deliver impactful results.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={30}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={20}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
             I am always excited about new challenges and ready to contribute my expertise to innovative projects.
           </p>
