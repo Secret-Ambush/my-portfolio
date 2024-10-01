@@ -1,10 +1,6 @@
-# Portfolio of Riddhi Goswami
+# Portfolio Website
 
 ## Technologies used:
 - React
 - Typescript
 - Styled Components
- 
-## To run this project:
-- yarn install
-- yarn run start
