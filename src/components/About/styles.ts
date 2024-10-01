@@ -92,8 +92,6 @@ export const Container = styled.section`
           filter: grayscale(0);
         }
     }
-    
-    
   }
 
 `

@@ -1,4 +1,4 @@
-import { Container } from "./styles"
+import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import linkedin from '../../assets/linkedin.svg'
