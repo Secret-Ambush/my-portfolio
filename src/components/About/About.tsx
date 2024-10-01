@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll"; // Make sure the package 
 
 export function About() {
   return (
-    <Container>
+    <Container id="about">
       <div>
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
