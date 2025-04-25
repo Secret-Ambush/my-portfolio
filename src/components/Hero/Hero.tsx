@@ -16,7 +16,7 @@ export function Hero() {
           <h1>Riddhi Goswami</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Passionate Data Science, AI, and ML enthusiast dedicated to leveraging technology for innovative problem-solving.</h3>
+          <h3>Engineer. Explorer. Always learning, always building.</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
       <div className="social-media"><a

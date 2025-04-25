@@ -6,13 +6,13 @@ export function About() {
   return (
     <Container id="about">
       <div>
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
           <h2>About me</h2>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={10}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={10} animateOnce={true}>
           <p>
-            Hi there! My name is Riddhi, a 4th year Computer Science student at BPDC. 
+          👋 Hi, I'm Riddhi Goswami!
           </p>
         </ScrollAnimation>
 
@@ -20,33 +20,36 @@ export function About() {
           animateIn="fadeInLeft"
           delay={20}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
+          animateOnce={true}
         >
           <p>
-            I am a Computer Science Engineering graduate with a passion for harnessing the power of Data Science, AI, and IoT to solve real-world problems. With a strong academic foundation, including a CGPA of 9.974 and recognition through the UAE Golden Visa for Distinguished Students, I thrive in both academic and professional environments. My expertise spans machine learning, data analysis, and software development, where I’ve led individual and collaborative projects to develop innovative solutions.
+          I'm a Computer Science student and aspiring software engineer with a passion for building purposeful, intelligent systems. Currently interning at Esri in the Oriented Imagery division of ArcGIS Pro, I've been fortunate to work on cutting-edge geospatial tools - where every day has been a chance to push boundaries, solve real-world problems, and grow as a developer.
           </p>
         </ScrollAnimation>
 
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={20}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+          animateOnce={true}>
           <p>
-            With a keen eye for problem-solving and a drive to simplify complex concepts, I've led workshops and served as a leader in Google Developer Student Club and IEEE. I enjoy pushing boundaries to deliver impactful results.
+          My journey is defined by curiosity, ownership, and an eagerness to learn. With a CGPA of 9.98 and the UAE Golden Visa for academic excellence, I combine strong fundamentals with practical experience across ML, AI, IoT, and spatial computing.
           </p>
         </ScrollAnimation>
 
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={20}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+          animateOnce={true}>
           <p>
-            I am always excited about new challenges and ready to contribute my expertise to innovative projects.
+          This is just the beginning. I'm excited to keep learning, building, and contributing!
           </p>
         </ScrollAnimation>
       </div>
 
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={100}>
+        <ScrollAnimation animateIn="fadeInRight" delay={100}  animateOnce={true}>
           <img src={RiddhiGoswami} alt="Riddhi Goswami" />
         </ScrollAnimation>
       </div>

@@ -2,7 +2,10 @@ import Particles from 'react-tsparticles';
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
+import { Experience } from "../Experience/Experience";
+import { MiscExperience } from "../MiscExperience/MiscExperience";
 import { Project } from "../Project/Project";
+import { Skills } from "../Skills/Skills";
 import htmlIcon from "../../assets/html-icon.svg";
 import pythonIcon from "../../assets/python-icon.png";
 import cssIcon from "../../assets/css-icon.svg";
@@ -221,6 +224,9 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Experience></Experience>
+      <MiscExperience></MiscExperience>
+      <Skills></Skills>
       <Project></Project>
     </Container>
   );
