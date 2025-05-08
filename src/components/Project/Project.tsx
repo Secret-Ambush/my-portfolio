@@ -73,8 +73,10 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Constraints</li>
+                <li>Constraint Handling</li>
                 <li>Streamlit</li>
+                <li>PDF Parsing</li>
+                <li>Python</li>
               </ul>
             </footer>
           </div>
@@ -99,9 +101,9 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>ML</li>
+                <li>Python</li>
+                <li>Dashboard Builder</li>
               </ul>
             </footer>
           </div>
@@ -130,11 +132,68 @@ export function Project() {
                 <li>Plotly</li>
                 <li>Matplotlib</li>
                 <li>CSS</li>
-                <li>JS</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Code</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://github.com/Secret-Ambush/Federated-Learning-Model-Building" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Dynamic Backdoor Attackers in Federated Learning Setup</h3>
+              <p>Investigated dynamic backdoor attacks in Federated Learning using non-IID CIFAR-10 data and evaluated stealthy trigger configurations with CNNs and FedAvg, highlighting vulnerabilities via ASR, Clean Accuracy, and Backdoor Accuracy metrics</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Federated Learning</li>
+                <li>CNNs</li>
+                <li>Security in ML</li>
+                <li>Privacy-Preserving AI</li>
+                <li>Data Partitioning</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Code</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://github.com/Secret-Ambush/FreeSlotsAnalyser" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Events Planner</h3>
+              <p>Developed a Streamlit app to parse BPDC academic calendars, filter schedules by year and discipline, visualise class load heatmaps, and identify optimal event slots using Pandas and Seaborn</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Streamlit</li>
+                <li>PDF Parsing</li>
+                <li>Data Visualisation</li>
+                <li>Python</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
 
       </div>
     </Container>
